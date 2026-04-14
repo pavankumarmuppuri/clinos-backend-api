@@ -1,0 +1,24 @@
+# Secret files — never commit these
+.env
+firebase_credentials.json
+firebase_credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
